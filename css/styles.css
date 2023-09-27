@@ -196,17 +196,6 @@ img{
   background-size: cover;
 }
 
-.title-container::before{
-  content: "";
-  background-color: rgba(46, 47, 66, 0.5); /* Adjust the RGBA values and alpha (0.5 for 50% opacity) to control darkness */
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 0; /* Place the pseudo-element above the background image */
-}
-
 .container{
   width: 1158px;
   padding-left:15px;
@@ -524,6 +513,7 @@ img{
   display: flex;
   flex-direction: row;
   gap:20px;
+  margin-top:10px;
 }
 
 .worker-socials{
@@ -544,7 +534,7 @@ img{
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: var(--green);
+  background-color: var(--ocean);
 }
 
 
@@ -712,7 +702,7 @@ img{
 
 .icon-effect{
   padding:20px;
-  border:solid 3px var(--light-slate);
+  border:solid 2px var(--light-slate);
   border-radius: 5px;
   fill: var(--light-slate);
   transition: 1s;
